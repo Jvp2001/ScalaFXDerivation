@@ -7,7 +7,7 @@ ThisBuild / scalaVersion := "3.5.0"
 lazy val scalaFXVersion = "22.0.0-R33"
 lazy val javaFXVersion = "22"
 
-lazy val root = (project in file("."))
+lazy val scalaFXDerivation = (project in file("."))
   .settings(
     name := "ScalaFXDerivation",
     idePackagePrefix := Some("com.joshuapetersen.scala.scalafx.derivation"),
